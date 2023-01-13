@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "kitchen:block/frypan"
+    },
+    "facing=east": {
+      "model": "kitchen:block/frypan",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "kitchen:block/frypan",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kitchen:block/frypan",
+      "y": 270
+    }
+  }
+}

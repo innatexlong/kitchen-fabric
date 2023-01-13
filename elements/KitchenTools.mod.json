@@ -1,0 +1,11 @@
+{
+  "_fv": 34,
+  "_type": "tab",
+  "definition": {
+    "name": "Kitchen - Tools",
+    "icon": {
+      "value": "Items.DIAMOND_SWORD"
+    },
+    "showSearch": false
+  }
+}

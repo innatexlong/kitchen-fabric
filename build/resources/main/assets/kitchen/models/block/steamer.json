@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "kitchen:blocks/fry_pan",
+    "particle": "kitchen:blocks/fry_pan"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "mooncakes"
+      },
+      "name": "default"
+    },
+    "raw_mooncake": {
+      "map": {
+        "0": "raw_mooncake"
+      },
+      "name": "raw_mooncake"
+    }
+  }
+}

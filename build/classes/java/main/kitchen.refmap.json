@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "net/mcreator/kitchen/mixins/KitchenModRepairItemRecipeMixin": {
+      "assemble": "Lnet/minecraft/class_4317;method_20807(Lnet/minecraft/class_1715;)Lnet/minecraft/class_1799;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "net/mcreator/kitchen/mixins/KitchenModRepairItemRecipeMixin": {
+        "assemble": "Lnet/minecraft/class_4317;method_20807(Lnet/minecraft/class_1715;)Lnet/minecraft/class_1799;"
+      }
+    }
+  }
+}

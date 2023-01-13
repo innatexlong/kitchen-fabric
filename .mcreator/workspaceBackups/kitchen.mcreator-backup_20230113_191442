@@ -1,0 +1,265 @@
+{
+  "mod_elements": [
+    {
+      "name": "Frypan",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frypan"
+    },
+    {
+      "name": "KitchenFood",
+      "type": "tab",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kitchen_food"
+    },
+    {
+      "name": "RicePlant4",
+      "type": "plant",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rice_plant_4"
+    },
+    {
+      "name": "KitchenBlocks",
+      "type": "tab",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kitchen_blocks"
+    },
+    {
+      "name": "Rawmooncake",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rawmooncake"
+    },
+    {
+      "name": "Mooncake",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mooncake"
+    },
+    {
+      "name": "WheatFlour",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wheat_flour"
+    },
+    {
+      "name": "Dough",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dough"
+    },
+    {
+      "name": "Alcohol",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alcohol"
+    },
+    {
+      "name": "Bread",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bread"
+    },
+    {
+      "name": "MakeMooncake",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_mooncake"
+    },
+    {
+      "name": "RiceplantExtra",
+      "type": "itemextension",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "riceplant_extra"
+    },
+    {
+      "name": "MakeDough",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_dough"
+    },
+    {
+      "name": "KitchenTools",
+      "type": "tab",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kitchen_tools"
+    },
+    {
+      "name": "UnhuskedRice",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unhusked_rice"
+    },
+    {
+      "name": "RicePlant",
+      "type": "loottable",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rice_plant"
+    },
+    {
+      "name": "UnhuskedRiceDangYouJianDianJiFangKuaiShiFangKuaiDeWeiZhi",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unhusked_rice_dang_you_jian_dian_ji_fang_kuai_shi_fang_kuai_de_wei_zhi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dumpling",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dumpling"
+    },
+    {
+      "name": "MakeWheatFlour",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_wheat_flour"
+    },
+    {
+      "name": "FrypanGui",
+      "type": "gui",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frypan_gui"
+    },
+    {
+      "name": "ABowlOfRice",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_bowl_of_rice"
+    },
+    {
+      "name": "KitchenOther",
+      "type": "tab",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kitchen_other"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "itemGroup.kitchen.kitchen_other": "Kitchen - Other",
+      "itemGroup.kitchen.kitchen_blocks": "Kitchen Blocks",
+      "item.kitchen.rawmooncake": "Raw Mooncake",
+      "item.kitchen.unhusked_rice": "Unhusked Rice",
+      "item.kitchen.dough": "Dough",
+      "block.kitchen.frypan": "Fry Pan",
+      "item.kitchen.alcohol": "Alcohol",
+      "item.kitchen.dumpling": "Dumpling",
+      "item.kitchen.mooncake": "Mooncake",
+      "item.kitchen.a_bowl_of_rice": "A Bowl of Rice",
+      "itemGroup.kitchen.kitchen_tools": "Kitchen - Tools",
+      "item.kitchen.wheat_flour": "Wheat Flour",
+      "itemGroup.kitchen.kitchen_food": "Kitchen - Food",
+      "block.kitchen.rice_plant_4": "Rice Plant 4"
+    },
+    "zh_cn": {
+      "itemGroup.kitchen.kitchen_other": "Kitchen - Other",
+      "itemGroup.kitchen.kitchen_blocks": "Kitchen - 方块",
+      "item.kitchen.rawmooncake": "生月饼",
+      "item.kitchen.unhusked_rice": "稻谷",
+      "item.kitchen.dough": "面团",
+      "block.kitchen.frypan": "煎锅",
+      "item.kitchen.alcohol": "酒",
+      "item.kitchen.dumpling": "饺子",
+      "item.kitchen.mooncake": "月饼",
+      "item.kitchen.a_bowl_of_rice": "A Bowl of Rice",
+      "itemGroup.kitchen.kitchen_tools": "Kitchen - 工具",
+      "item.kitchen.wheat_flour": "面粉",
+      "itemGroup.kitchen.kitchen_food": "Kitchen - 食物",
+      "block.kitchen.rice_plant_4": "Rice Plant 4"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "kitchen",
+    "modName": "kitchen",
+    "version": "0.0.1",
+    "description": "Kitchen!",
+    "author": "innatexlong, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "disableForgeVersionCheck": false,
+    "serverSideOnly": false,
+    "modPicture": "icon",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.kitchen",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "rice_plant4"
+      },
+      "name": "default"
+    }
+  }
+}

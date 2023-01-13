@@ -1,0 +1,11 @@
+{
+  "_fv": 34,
+  "_type": "tab",
+  "definition": {
+    "name": "Kitchen - Food",
+    "icon": {
+      "value": "CUSTOM:Frypan"
+    },
+    "showSearch": false
+  }
+}

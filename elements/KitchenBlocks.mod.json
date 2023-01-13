@@ -1,0 +1,11 @@
+{
+  "_fv": 34,
+  "_type": "tab",
+  "definition": {
+    "name": "Kitchen Blocks",
+    "icon": {
+      "value": "CUSTOM:RicePlant4"
+    },
+    "showSearch": false
+  }
+}

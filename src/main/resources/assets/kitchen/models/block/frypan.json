@@ -1,0 +1,8 @@
+{
+  "parent": "kitchen:custom/fry_pan",
+  "textures": {
+    "all": "kitchen:blocks/fry_pan",
+    "particle": "kitchen:blocks/fry_pan",
+    "2": "kitchen:blocks/fry_pan"
+  }
+}

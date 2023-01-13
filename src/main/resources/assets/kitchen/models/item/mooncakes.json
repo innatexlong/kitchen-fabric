@@ -1,0 +1,7 @@
+{
+  "parent": "kitchen:custom/mooncakes",
+  "textures": {
+    "0": "kitchen:blocks/mooncakes",
+    "particle": "kitchen:items/mooncakes"
+  }
+}

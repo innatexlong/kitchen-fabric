@@ -1,0 +1,9 @@
+{
+  "parent": "kitchen:custom/rice_plant4",
+  "textures": {
+    "all": "kitchen:blocks/fry_pan",
+    "particle": "kitchen:blocks/fry_pan",
+    "0": "kitchen:blocks/fry_pan"
+  },
+  "render_type": "solid"
+}

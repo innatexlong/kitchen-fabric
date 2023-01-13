@@ -1,0 +1,8 @@
+{
+  "parent": "kitchen:custom/rice_plant4",
+  "textures": {
+    "all": "kitchen:blocks/rice_plant4",
+    "particle": "kitchen:blocks/rice_plant4",
+    "0": "kitchen:blocks/rice_plant4"
+  }
+}
