@@ -4,7 +4,6 @@
  */
 package net.mcreator.kitchen.init;
 
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.resources.ResourceLocation;
@@ -19,11 +18,11 @@ public class KitchenModTabs {
 
 	public static void load() {
 		TAB_KITCHEN_FOOD = FabricItemGroupBuilder.create(new ResourceLocation("kitchen", "kitchen_food"))
-				.icon(() -> new ItemStack(KitchenModBlocks.FRYPAN)).build();
+				.icon(() -> new ItemStack(KitchenModItems.A_BOWL_OF_RICE)).build();
 		TAB_KITCHEN_BLOCKS = FabricItemGroupBuilder.create(new ResourceLocation("kitchen", "kitchen_blocks"))
 				.icon(() -> new ItemStack(KitchenModBlocks.RICE_PLANT_4)).build();
 		TAB_KITCHEN_TOOLS = FabricItemGroupBuilder.create(new ResourceLocation("kitchen", "kitchen_tools"))
-				.icon(() -> new ItemStack(Items.DIAMOND_SWORD)).build();
+				.icon(() -> new ItemStack(KitchenModItems.KNIFE)).build();
 		TAB_KITCHEN_OTHER = FabricItemGroupBuilder.create(new ResourceLocation("kitchen", "kitchen_other"))
 				.icon(() -> new ItemStack(KitchenModItems.UNHUSKED_RICE)).build();
 	}

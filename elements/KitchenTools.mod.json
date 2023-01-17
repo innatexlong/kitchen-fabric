@@ -4,7 +4,7 @@
   "definition": {
     "name": "Kitchen - Tools",
     "icon": {
-      "value": "Items.DIAMOND_SWORD"
+      "value": "CUSTOM:Knife"
     },
     "showSearch": false
   }

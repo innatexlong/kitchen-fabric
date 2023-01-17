@@ -215,6 +215,146 @@
           }
         ]
       }
+    },
+    {
+      "name": "Knife",
+      "type": "tool",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knife"
+    },
+    {
+      "name": "RedDate",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_date"
+    },
+    {
+      "name": "RedDateBun",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_date_bun"
+    },
+    {
+      "name": "ReedLeave",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reed_leave"
+    },
+    {
+      "name": "ReedleaveExtra",
+      "type": "itemextension",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reedleave_extra"
+    },
+    {
+      "name": "MakeRawmooncake",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_rawmooncake"
+    },
+    {
+      "name": "Steamer",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steamer"
+    },
+    {
+      "name": "SteamerGui",
+      "type": "gui",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steamer_gui"
+    },
+    {
+      "name": "Tofu",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tofu"
+    },
+    {
+      "name": "Riceplant0",
+      "type": "plant",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "riceplant_0"
+    },
+    {
+      "name": "Riceplant0GengXinYouXiKe",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "riceplant_0_geng_xin_you_xi_ke",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Riceplant0DangZhiWuBeiYouJianDianJiShi",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "riceplant_0_dang_zhi_wu_bei_you_jian_dian_ji_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -222,34 +362,48 @@
   "language_map": {
     "en_us": {
       "itemGroup.kitchen.kitchen_other": "Kitchen - Other",
-      "itemGroup.kitchen.kitchen_blocks": "Kitchen Blocks",
+      "itemGroup.kitchen.kitchen_blocks": "Kitchen - Blocks",
       "item.kitchen.rawmooncake": "Raw Mooncake",
       "item.kitchen.unhusked_rice": "Unhusked Rice",
       "item.kitchen.dough": "Dough",
       "block.kitchen.frypan": "Fry Pan",
+      "item.kitchen.knife": "Knife",
+      "item.kitchen.tofu": "Tofu",
       "item.kitchen.alcohol": "Alcohol",
       "item.kitchen.dumpling": "Dumpling",
       "item.kitchen.mooncake": "Mooncake",
       "item.kitchen.a_bowl_of_rice": "A Bowl of Rice",
+      "item.kitchen.red_date_bun": "Red Date Bun",
+      "item.kitchen.reed_leave": "Reed Leave",
+      "block.kitchen.riceplant_0": "Riceplant 0",
       "itemGroup.kitchen.kitchen_tools": "Kitchen - Tools",
+      "item.kitchen.red_date": "Red Date",
       "item.kitchen.wheat_flour": "Wheat Flour",
       "itemGroup.kitchen.kitchen_food": "Kitchen - Food",
+      "block.kitchen.steamer": "Steamer",
       "block.kitchen.rice_plant_4": "Rice Plant 4"
     },
     "zh_cn": {
-      "itemGroup.kitchen.kitchen_other": "Kitchen - Other",
+      "itemGroup.kitchen.kitchen_other": "Kitchen - 其他",
       "itemGroup.kitchen.kitchen_blocks": "Kitchen - 方块",
       "item.kitchen.rawmooncake": "生月饼",
       "item.kitchen.unhusked_rice": "稻谷",
       "item.kitchen.dough": "面团",
       "block.kitchen.frypan": "煎锅",
+      "item.kitchen.knife": "菜刀",
+      "item.kitchen.tofu": "豆腐",
       "item.kitchen.alcohol": "酒",
       "item.kitchen.dumpling": "饺子",
       "item.kitchen.mooncake": "月饼",
-      "item.kitchen.a_bowl_of_rice": "A Bowl of Rice",
+      "item.kitchen.a_bowl_of_rice": "一碗米饭",
+      "item.kitchen.red_date_bun": "枣花馍",
+      "item.kitchen.reed_leave": "芦苇叶",
+      "block.kitchen.riceplant_0": "水稻幼苗",
       "itemGroup.kitchen.kitchen_tools": "Kitchen - 工具",
+      "item.kitchen.red_date": "红枣",
       "item.kitchen.wheat_flour": "面粉",
       "itemGroup.kitchen.kitchen_food": "Kitchen - 食物",
+      "block.kitchen.steamer": "蒸锅",
       "block.kitchen.rice_plant_4": "Rice Plant 4"
     }
   },
@@ -259,11 +413,11 @@
   },
   "workspaceSettings": {
     "modid": "kitchen",
-    "modName": "kitchen",
-    "version": "0.0.1",
+    "modName": "Kitchen",
+    "version": "22y02",
     "description": "Kitchen!",
-    "author": "innatexlong, MCreator",
-    "websiteURL": "https://mcreator.net",
+    "author": "innatexlong(fishfisher), MCreator",
+    "websiteURL": "https://github.com/innatexlong/kitchen-fabric/tree/master",
     "license": "GNU General Public License version 3 (GPLv3)",
     "disableForgeVersionCheck": false,
     "serverSideOnly": false,

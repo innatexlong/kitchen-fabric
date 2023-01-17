@@ -25,6 +25,6 @@ public class AlcoholWanJiaWanChengShiYongWuPinShiProcedure {
 		if (entity instanceof LivingEntity _entity)
 			_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 500, 1));
 		if (entity instanceof LivingEntity _entity)
-			_entity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 60, 1));
+			_entity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 500, 1));
 	}
 }

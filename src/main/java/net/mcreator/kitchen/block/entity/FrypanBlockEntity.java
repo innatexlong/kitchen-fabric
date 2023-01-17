@@ -26,7 +26,7 @@ import net.fabricmc.fabric.api.screenhandler.v1.ExtendedScreenHandlerFactory;
 import java.util.stream.IntStream;
 
 public class FrypanBlockEntity extends RandomizableContainerBlockEntity implements ExtendedScreenHandlerFactory, WorldlyContainer {
-	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(9, ItemStack.EMPTY);
+	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(11, ItemStack.EMPTY);
 
 	public FrypanBlockEntity(BlockPos position, BlockState state) {
 		super(KitchenModBlockEntities.FRYPAN, position, state);
@@ -102,6 +102,8 @@ public class FrypanBlockEntity extends RandomizableContainerBlockEntity implemen
 
 	@Override
 	public boolean canPlaceItem(int index, ItemStack stack) {
+		if (index == 9)
+			return false;
 		return true;
 	}
 

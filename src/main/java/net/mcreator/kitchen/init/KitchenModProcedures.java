@@ -5,6 +5,8 @@
 package net.mcreator.kitchen.init;
 
 import net.mcreator.kitchen.procedures.UnhuskedRiceDangYouJianDianJiFangKuaiShiFangKuaiDeWeiZhiProcedure;
+import net.mcreator.kitchen.procedures.Riceplant0GengXinYouXiKeProcedure;
+import net.mcreator.kitchen.procedures.Riceplant0DangZhiWuBeiYouJianDianJiShiProcedure;
 import net.mcreator.kitchen.procedures.AlcoholWanJiaWanChengShiYongWuPinShiProcedure;
 
 @SuppressWarnings("InstantiationOfUtilityClass")
@@ -12,5 +14,7 @@ public class KitchenModProcedures {
 	public static void load() {
 		new UnhuskedRiceDangYouJianDianJiFangKuaiShiFangKuaiDeWeiZhiProcedure();
 		new AlcoholWanJiaWanChengShiYongWuPinShiProcedure();
+		new Riceplant0GengXinYouXiKeProcedure();
+		new Riceplant0DangZhiWuBeiYouJianDianJiShiProcedure();
 	}
 }

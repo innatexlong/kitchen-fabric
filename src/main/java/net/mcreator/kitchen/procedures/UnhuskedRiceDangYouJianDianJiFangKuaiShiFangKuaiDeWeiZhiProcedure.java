@@ -74,34 +74,12 @@ public class UnhuskedRiceDangYouJianDianJiFangKuaiShiFangKuaiDeWeiZhiProcedure {
 				&& (entity instanceof Player _playerHasItem
 						? _playerHasItem.getInventory().contains(new ItemStack(KitchenModItems.UNHUSKED_RICE))
 						: false)) {
-			if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == Blocks.GRASS_BLOCK && world.isEmptyBlock(new BlockPos(x, y + 1, z))) {
+			if (((world.getBlockState(new BlockPos(x, y, z))).getBlock() == Blocks.FARMLAND
+					|| (world.getBlockState(new BlockPos(x, y, z))).getBlock() == Blocks.GRASS_BLOCK)
+					&& world.isEmptyBlock(new BlockPos(x, y + 1, z))) {
 				if (entity instanceof LivingEntity _entity)
 					_entity.swing(InteractionHand.MAIN_HAND, true);
 				world.setBlock(new BlockPos(x, y + 1, z), KitchenModBlocks.RICE_PLANT_4.defaultBlockState(), 3);
-				if (!(new Object() {
-					public boolean checkGamemode(Entity _ent) {
-						if (_ent instanceof ServerPlayer _serverPlayer) {
-							return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.CREATIVE;
-						} else if (_ent.level.isClientSide() && _ent instanceof Player _player) {
-							return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null && Minecraft
-									.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.CREATIVE;
-						}
-						return false;
-					}
-				}.checkGamemode(entity) && (entity instanceof Player _plr ? _plr.getAbilities().instabuild : false))) {
-					{
-						ItemStack _ist = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY);
-						if (_ist.hurt(1, RandomSource.create(), null)) {
-							_ist.shrink(1);
-							_ist.setDamageValue(0);
-						}
-					}
-				}
-			} else if (world.isEmptyBlock(new BlockPos(x, y, z))
-					&& (world.getBlockState(new BlockPos(x, y - 1, z))).getBlock() == Blocks.GRASS_BLOCK) {
-				if (entity instanceof LivingEntity _entity)
-					_entity.swing(InteractionHand.MAIN_HAND, true);
-				world.setBlock(new BlockPos(x, y, z), KitchenModBlocks.RICE_PLANT_4.defaultBlockState(), 3);
 				if (!(new Object() {
 					public boolean checkGamemode(Entity _ent) {
 						if (_ent instanceof ServerPlayer _serverPlayer) {

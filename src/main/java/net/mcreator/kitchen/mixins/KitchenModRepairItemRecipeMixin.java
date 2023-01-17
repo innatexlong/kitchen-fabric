@@ -35,5 +35,8 @@ public abstract class KitchenModRepairItemRecipeMixin {
 		if ((itemStack3 = (ItemStack) list.get(0)).is((KitchenModItems.A_BOWL_OF_RICE))) {
 			cir.setReturnValue(ItemStack.EMPTY);
 		}
+		if ((itemStack3 = (ItemStack) list.get(0)).is((KitchenModItems.KNIFE))) {
+			cir.setReturnValue(ItemStack.EMPTY);
+		}
 	}
 }

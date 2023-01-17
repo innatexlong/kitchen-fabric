@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "id": "kitchen",
-  "version": "0.0.1",
-  "name": "kitchen",
+  "version": "22y02",
+  "name": "Kitchen",
   "description": "Kitchen!",
   "authors": [
-    "innatexlong, MCreator"
+    "innatexlong(fishfisher), MCreator"
   ],
   "contact": {
-    "homepage": "https://mcreator.net",
+    "homepage": "https://github.com/innatexlong/kitchen-fabric/tree/master",
     "sources": ""
   },
   "license": "GNU General Public License version 3 (GPLv3)",

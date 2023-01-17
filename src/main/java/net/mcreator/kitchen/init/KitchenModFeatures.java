@@ -10,6 +10,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.Registry;
 
+import net.mcreator.kitchen.world.features.plants.Riceplant0Feature;
 import net.mcreator.kitchen.world.features.plants.RicePlant4Feature;
 import net.mcreator.kitchen.KitchenMod;
 
@@ -21,6 +22,7 @@ import java.util.function.Predicate;
 public class KitchenModFeatures {
 	public static void load() {
 		register("rice_plant_4", RicePlant4Feature.feature(), RicePlant4Feature.GENERATE_BIOMES, GenerationStep.Decoration.VEGETAL_DECORATION);
+		register("riceplant_0", Riceplant0Feature.feature(), Riceplant0Feature.GENERATE_BIOMES, GenerationStep.Decoration.VEGETAL_DECORATION);
 	}
 
 	private static void register(String registryName, Feature feature, Predicate<BiomeSelectionContext> biomes, GenerationStep.Decoration genStep) {
